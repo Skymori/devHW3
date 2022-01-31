@@ -1,0 +1,10 @@
+use hw3;
+alter table developers add column salary double;
+UPDATE developers SET developers.salary = 1000 WHERE (developer_id = 1);
+UPDATE developers SET developers.salary = 2000 WHERE (developer_id = 2);
+UPDATE developers SET developers.salary = 3000 WHERE (developer_id = 3);
+UPDATE developers SET developers.salary = 4000 WHERE (developer_id = 4);
+UPDATE developers SET developers.salary = 5000 WHERE (developer_id = 5);
+UPDATE developers SET developers.salary = 1000 WHERE (developer_id = 6);
+UPDATE developers SET developers.salary = 2000 WHERE (developer_id = 7);
+UPDATE developers SET developers.salary = 3000 WHERE (developer_id = 8);
