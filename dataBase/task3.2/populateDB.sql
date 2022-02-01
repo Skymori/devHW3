@@ -6,13 +6,13 @@ VALUES (1, 'Global logic', 'Kiev'),
        (3, 'SoftServe', 'Kharkiv');
 
 INSERT INTO developers
-VALUES (1, 'Maksym Pinchuk', 27, 'male', 1),
-       (2, 'Anton Aleksakhin', 35, 'male', 2),
-       (3, 'Inna Kuzmina', 23, 'female', 3),
-       (4, 'Tatiana Pinchuk', 29, 'female', 5),
-       (5, 'Mozart Amadey', 17, 'male', 2),
-       (6, 'Polina Ershova', 28, 'female', 7),
-       (7, 'Roman Riazanov', 32, 'male', 6);
+VALUES (1, 'Maksym Pinchuk', 27, 'male',1),
+       (2, 'Anton Aleksakhin', 35, 'male',3),
+       (3, 'Inna Kuzmina', 23, 'female',3),
+       (4, 'Tatiana Pinchuk', 29, 'female',1),
+       (5, 'Mozart Amadey', 17, 'male',2),
+       (6, 'Polina Ershova', 28, 'female',2),
+       (7, 'Roman Riazanov', 32, 'male',1);
     INSERT INTO skills
 VALUES (1, 'Java', 'Junior'),
     (2, 'Java', 'Middle'),
